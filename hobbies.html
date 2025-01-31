@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+</html>
+<style>
+      .hobbies-section, .projects-section {
+        padding: 40px 20px;
+        border-radius: 15px;
+        background-color: #0d1e3d;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 60px;
+        margin-left: 300px;
+        margin-right: 300px;
+      }
+      .hobby-card, .project-card {
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        background-color: #79223c;
+      }
+      body {
+        background-color: #1b3046;
+        font-family: 'Arial', sans-serif;
+      }
+      .navbar {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+      }
+      .navbar-scrolled {
+        background-color: #343a40 !important;
+      }
+      .navbar .navbar-brand {
+        font-weight: bold;
+        color: #ff7f50;
+        font-size: 1.8rem;
+      }
+      .navbar .nav-link {
+        color: #fff;
+        font-size: 1rem;
+      }
+      .navbar .nav-link:hover {
+        color: #ff7f50;
+        text-decoration: underline;
+      }
+      .navbar .form-inline input {
+        border-radius: 300px;
+        padding: 5px 15px;
+        width: 200px;
+      }
+      .intro-section {
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        color: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        padding: 40px;
+      }
+      .h2{
+        justify-content: center;
+        margin-left: 2000px;
+      }
+</style>    
+ <body>
+  <!-- Navigation bar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand text-warning" href="#">🌟RATHER</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobbies.html">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Project.html">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Music.html">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-4">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>  
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies-section">
+      <h2 class="section-title text-light text-center">My Hobbies</h2>
+        <div class="container d-flex justify-content-center flex-wrap gap-4">
+          <!-- Hobby 1 -->
+          <div class="card hobby-card text-center text-light p-3" style="width: 18rem;">
+            <img src="image/code.webp" class="card-img-top rounded-circle mx-auto my-3" style="width: 100px; height: 100px;" alt="Coding">
+            <div class="card-body">
+              <h5 class="card-title">Coding</h5>
+              <p class="card-text">I love solving problems and building new projects using modern technologies.</p>
+            </div>
+          </div>
+          <!-- Hobby 2 -->
+          <div class="card hobby-card text-center text-light p-3" style="width: 18rem;">
+            <img src="./image/camera.jpg" class="card-img-top rounded-circle mx-auto my-3" style="width: 100px; height: 100px;" alt="Photography">
+            <div class="card-body">
+              <h5 class="card-title">Photography</h5>
+              <p class="card-text">Capturing beautiful moments and exploring landscapes through my lens is my passion.</p>
+            </div>
+          </div>
+          <!-- Hobby 3 -->
+          <div class="card hobby-card text-center text-light p-3" style="width: 18rem;">
+            <img src="./image/valorant.png" class="card-img-top rounded-circle mx-auto my-3" style="width: 100px; height: 100px;" alt="Gaming">
+            <div class="card-body">
+              <h5 class="card-title">Gaming</h5>
+              <p class="card-text">I enjoy playing video games to relax and connect with friends worldwide.</p>
+            </div>
+          </div>
+          <!-- Hobby 4 -->
+          <div class="card hobby-card text-center text-light p-3" style="width: 18rem;">
+            <img src="./image/electric-or-acoustic-300x300.jpg" class="card-img-top rounded-circle mx-auto my-3" style="width: 100px; height: 100px;" alt="Music">
+            <div class="card-body">
+              <h5 class="card-title">Music</h5>
+              <p class="card-text">Playing the guitar and exploring new tunes brings joy and relaxation to my day.</p>
+            </div>
+          </div>
+          <!-- Hobby 5 -->
+          <div class="card hobby-card text-center text-light p-3" style="width: 18rem;">
+            <img src="./image/cooking300.webp" class="card-img-top rounded-circle mx-auto my-3" style="width: 100px; height: 100px;" alt="Cooking">
+            <div class="card-body">
+              <h5 class="card-title">Cooking</h5>
+              <p class="card-text">Experimenting with recipes and creating delicious meals is a favorite pastime.</p>
+            </div>
+          </div>
+          <!-- Hobby 6 -->
+          <div class="card hobby-card text-center text-light p-3" style="width: 18rem;">
+            <img src="./image/basketball300x300.jpg" class="card-img-top rounded-circle mx-auto my-3" style="width: 100px; height: 100px;" alt="Sports">
+            <div class="card-body">
+              <h5 class="card-title">Sports</h5>
+              <p class="card-text">Playing basketball and staying active is my way of maintaining a healthy lifestyle.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </body>   
+    
